@@ -1,0 +1,18 @@
+Old:
+==================================================
+<artifactId>maven-war-plugin</artifactId>
+        <version>2.6</version>
+        <configuration>
+          <warSourceDirectory>WebContent</warSourceDirectory>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+
+Updated:
+==================================================
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<version>3.3.1</version>
+<configuration>
+		<warSourceDirectory>WebContent</warSourceDirectory>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+</configuration>
